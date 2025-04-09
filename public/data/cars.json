@@ -6,7 +6,7 @@
       "price": 600000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Maruti+Swift"
+      "image": "https://placehold.co/1280x720?text=Maruti+Swift"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "price": 500000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Hyundai+Santro"
+      "image": "https://placehold.co/1280x720?text=Hyundai+Santro"
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
       "price": 1400000,
       "fuel": "Electric",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Tata+Nexon+EV"
+      "image": "https://placehold.co/1280x720?text=Tata+Nexon+EV"
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "price": 1200000,
       "fuel": "Diesel",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Kia+Seltos"
+      "image": "https://placehold.co/1280x720?text=Kia+Seltos"
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "price": 1100000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Honda+City"
+      "image": "https://placehold.co/1280x720?text=Honda+City"
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "price": 3500000,
       "fuel": "Diesel",
       "seating": 7,
-      "image": "https://placehold.co/300x200?text=Toyota+Fortuner"
+      "image": "https://placehold.co/1280x720?text=Toyota+Fortuner"
     },
     {
       "id": 7,
@@ -60,7 +60,7 @@
       "price": 2000000,
       "fuel": "Diesel",
       "seating": 7,
-      "image": "https://placehold.co/300x200?text=Mahindra+XUV700"
+      "image": "https://placehold.co/1280x720?text=Mahindra+XUV700"
     },
     {
       "id": 8,
@@ -69,7 +69,7 @@
       "price": 1800000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=MG+Hector"
+      "image": "https://placehold.co/1280x720?text=MG+Hector"
     },
     {
       "id": 9,
@@ -78,7 +78,7 @@
       "price": 1300000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Hyundai+Creta"
+      "image": "https://placehold.co/1280x720?text=Hyundai+Creta"
     },
     {
       "id": 10,
@@ -87,7 +87,7 @@
       "price": 450000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Renault+Kwid"
+      "image": "https://placehold.co/1280x720?text=Renault+Kwid"
     },
     {
       "id": 11,
@@ -96,7 +96,7 @@
       "price": 1600000,
       "fuel": "Diesel",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Tata+Harrier"
+      "image": "https://placehold.co/1280x720?text=Tata+Harrier"
     },
     {
       "id": 12,
@@ -105,7 +105,7 @@
       "price": 700000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Maruti+Baleno"
+      "image": "https://placehold.co/1280x720?text=Maruti+Baleno"
     },
     {
       "id": 13,
@@ -114,7 +114,7 @@
       "price": 1000000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Hyundai+Verna"
+      "image": "https://placehold.co/1280x720?text=Hyundai+Verna"
     },
     {
       "id": 14,
@@ -123,7 +123,7 @@
       "price": 800000,
       "fuel": "Diesel",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Honda+Amaze"
+      "image": "https://placehold.co/1280x720?text=Honda+Amaze"
     },
     {
       "id": 15,
@@ -132,7 +132,7 @@
       "price": 750000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Toyota+Glanza"
+      "image": "https://placehold.co/1280x720?text=Toyota+Glanza"
     },
     {
       "id": 16,
@@ -141,7 +141,7 @@
       "price": 1300000,
       "fuel": "Petrol",
       "seating": 4,
-      "image": "https://placehold.co/300x200?text=Mahindra+Thar"
+      "image": "https://placehold.co/1280x720?text=Mahindra+Thar"
     },
     {
       "id": 17,
@@ -150,7 +150,7 @@
       "price": 1150000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Skoda+Slavia"
+      "image": "https://placehold.co/1280x720?text=Skoda+Slavia"
     },
     {
       "id": 18,
@@ -159,7 +159,7 @@
       "price": 1200000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=VW+Taigun"
+      "image": "https://placehold.co/1280x720?text=VW+Taigun"
     },
     {
       "id": 19,
@@ -168,7 +168,7 @@
       "price": 850000,
       "fuel": "Electric",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Tata+Tiago+EV"
+      "image": "https://placehold.co/1280x720?text=Tata+Tiago+EV"
     },
     {
       "id": 20,
@@ -177,7 +177,7 @@
       "price": 800000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Nissan+Magnite"
+      "image": "https://placehold.co/1280x720?text=Nissan+Magnite"
     },
     {
       "id": 21,
@@ -186,7 +186,7 @@
       "price": 2200000,
       "fuel": "Diesel",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Jeep+Compass"
+      "image": "https://placehold.co/1280x720?text=Jeep+Compass"
     },
     {
       "id": 22,
@@ -195,7 +195,7 @@
       "price": 900000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Ford+EcoSport"
+      "image": "https://placehold.co/1280x720?text=Ford+EcoSport"
     },
     {
       "id": 23,
@@ -204,7 +204,7 @@
       "price": 400000,
       "fuel": "Petrol",
       "seating": 4,
-      "image": "https://placehold.co/300x200?text=Maruti+Alto"
+      "image": "https://placehold.co/1280x720?text=Maruti+Alto"
     },
     {
       "id": 24,
@@ -213,7 +213,7 @@
       "price": 700000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Renault+Kiger"
+      "image": "https://placehold.co/1280x720?text=Renault+Kiger"
     },
     {
       "id": 25,
@@ -222,7 +222,7 @@
       "price": 2300000,
       "fuel": "Electric",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=MG+ZS+EV"
+      "image": "https://placehold.co/1280x720?text=MG+ZS+EV"
     },
     {
       "id": 26,
@@ -231,7 +231,7 @@
       "price": 1400000,
       "fuel": "Petrol",
       "seating": 7,
-      "image": "https://placehold.co/300x200?text=Kia+Carens"
+      "image": "https://placehold.co/1280x720?text=Kia+Carens"
     },
     {
       "id": 27,
@@ -240,7 +240,7 @@
       "price": 850000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Hyundai+i20"
+      "image": "https://placehold.co/1280x720?text=Hyundai+i20"
     },
     {
       "id": 28,
@@ -249,7 +249,7 @@
       "price": 1200000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Honda+Elevate"
+      "image": "https://placehold.co/1280x720?text=Honda+Elevate"
     },
     {
       "id": 29,
@@ -258,7 +258,7 @@
       "price": 950000,
       "fuel": "Petrol",
       "seating": 5,
-      "image": "https://placehold.co/300x200?text=Maruti+Brezza"
+      "image": "https://placehold.co/1280x720?text=Maruti+Brezza"
     },
     {
       "id": 30,
@@ -267,7 +267,7 @@
       "price": 1800000,
       "fuel": "Diesel",
       "seating": 7,
-      "image": "https://placehold.co/300x200?text=Scorpio+N"
+      "image": "https://placehold.co/1280x720?text=Scorpio+N"
     }
   ]
   
