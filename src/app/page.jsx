@@ -1,11 +1,11 @@
 "use client"
 
-import { Badge } from "@/components/ui/badge";
+import CarCard from "@/components/CarCard";
+import FilterSidebar from "@/components/FilterSidebar";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Fuel, Heart, Users } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
+import { Input } from "@/components/ui/input";
+import { Search } from "lucide-react";
+
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -35,52 +35,36 @@ export default function Home() {
   )
 
   return (
-    <div className="container mx-auto my-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {cars.map((car) => (
-          <Card key={car.id} className="overflow-hidden">
-            <div className="relative aspect-video">
-              <img src={car.image} alt={car.name} className="object-cover" />
-              <div className="absolute top-2 right-2">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className={`rounded-full bg-background/80 backdrop-blur-sm ${"text-muted-foreground hover:text-foreground"
-                    }`}
-                >
-                  <Heart className="h-5 w-5" />
-                </Button>
-              </div>
+    <div className="container mx-auto my-10 px-4 flex flex-col gap-y-4 md:gap-y-0 md:flex-row md:gap-x-6">
+      <div className="w-full md:w-1/4 lg:w-1/5">
+        <FilterSidebar />
+      </div>
+      <div className="w-full md:w-3/4 lg:w-4/5">
+        <div className="mb-6">
+          <h1 className="text-3xl font-bold tracking-tight">Find Your Perfect Car</h1>
+          <p className="text-muted-foreground mt-1">Browse through our extensive collection of vehicles</p>
+        </div>
+        <form className="flex w-full items-center space-x-2">
+          <div className="relative flex-1">
+            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            <Input
+              type="text"
+              placeholder="Search by car name, model, or features..."
+              // value={query}
+              // onChange={(e) => setQuery(e.target.value)}
+              className="pl-10"
+            />
+          </div>
+          <Button type="submit">Search</Button>
+        </form>
+        <hr className="my-6" />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {cars.map((car) => (
+            <div key={car.id}>
+              <CarCard car={car} />
             </div>
-            <CardContent className="p-4">
-              <div className="flex justify-between items-start">
-                <div>
-                  <h3 className="font-semibold text-lg">{car.name}</h3>
-                  <p className="text-sm text-muted-foreground">{car.brand}</p>
-                </div>
-                <Badge>₹{car.price.toLocaleString()}</Badge>
-              </div>
-              <div className="mt-2 flex items-center gap-2 text-sm text-muted-foreground">
-                <span className="flex items-center">
-                  <Fuel className="h-3 w-3 mr-1" />
-                  {car.fuel}
-                </span>
-                <span>•</span>
-                <span className="flex items-center">
-                  <Users className="h-3 w-3 mr-1" />
-                  {car.seating} Seats
-                </span>
-              </div>
-            </CardContent>
-            <CardFooter className="p-4 pt-0">
-              <Link href={`/cars/${car.id}`} className="w-full">
-                <Button variant="outline" className="w-full">
-                  View Details
-                </Button>
-              </Link>
-            </CardFooter>
-          </Card>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
