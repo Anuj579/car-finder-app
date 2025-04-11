@@ -8,8 +8,13 @@ A modern car listing app built with Next.js and TailwindCSS. Users can browse ca
 ## 🚀 Features
 
 - View car listings in a responsive grid layout
+- Search cars by name, brand, fuel type, or seating
+- Filter by brand, price, fuel type, and seating capacity
+- Sort by price (low to high / high to low)
+- Pagination to navigate through cars
 - Add or remove cars from **wishlist** (saved in localStorage)
 - Live **wishlist count** in the navbar
+- Theme toggle (dark & light mode)
 - Toast notifications on adding/removing from wishlist
 - Smooth UI with blurred sticky navbar
 
@@ -25,7 +30,7 @@ A modern car listing app built with Next.js and TailwindCSS. Users can browse ca
 
 ---
 
-## 📂 Folder Structure (Minimal)
+## 📂 Folder Structure
 ```
 src/
 ├── app/
@@ -61,4 +66,4 @@ src/
 
 ## ✨ Author
 
-Built by [Anuj (@anujbuilds)](https://instagram.com/anujbuilds)
+Built by [Anuj](https://instagram.com/anujbuilds)
