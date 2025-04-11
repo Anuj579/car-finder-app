@@ -231,7 +231,7 @@ export default function FilterSidebar() {
                             type="multiple"
                             defaultValue={["brands", "price", "fuelType", "seating"]}
                         >
-                            <AccordionItem value="brands" className="max-h-[300px] overflow-y-auto overflow-x-hidden">
+                            <AccordionItem value="brands" className="max-h-[220px] overflow-y-auto overflow-x-hidden">
                                 <AccordionTrigger>Brand</AccordionTrigger>
                                 <AccordionContent>
                                     <div className="space-y-3">
