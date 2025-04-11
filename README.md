@@ -2,7 +2,7 @@
 
 A modern car listing app built with React and TailwindCSS. Users can browse cars, add/remove them from a wishlist, and view the wishlist separately.
 
-🔗 **Live URL**: [https://your-live-url.com](https://your-live-url.com)
+🔗 **Live URL**: [https://carfinder-app.vercel.app/](https://carfinder-app.vercel.app/)
 ---
 
 ## 🚀 Features
