@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 function Layout({ children }) {
     return (
-        <div className="flex flex-col min-h-screen dark:bg-zinc-900">
+        <div className="flex flex-col min-h-screen">
             <Navbar />
             <main>{children}</main>
         </div>
