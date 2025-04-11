@@ -1,6 +1,6 @@
 # Car Finder 🚗
 
-A modern car listing app built with React and TailwindCSS. Users can browse cars, add/remove them from a wishlist, and view the wishlist separately.
+A modern car listing app built with Next.js and TailwindCSS. Users can browse cars, add/remove them from a wishlist, and view the wishlist separately.
 
 🔗 **Live URL**: [https://carfinder-app.vercel.app/](https://carfinder-app.vercel.app/)
 ---
