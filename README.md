@@ -36,6 +36,7 @@ src/
 ├── components/
 │   ├── CarCard.jsx
 │   ├── FilterSidebar.jsx
+│   ├── Home.jsx
 │   ├── Layout.jsx
 │   ├── Navbar.jsx
 │   ├── Providers.jsx
